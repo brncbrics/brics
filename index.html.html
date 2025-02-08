@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="z.ico">
+    <title>BRICS LATTES</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Estilo para o corpo da página */
+        body {
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #006400 0%, #D60000 100%); /* Gradiente com as cores do BRICS, África e China */
+            color: #FFF;
+            margin: 0;
+            background-size: cover;
+            transition: background 0.5s ease;
+        }
+
+        /* Estilo para o contêiner principal da página */
+        .login-container {
+            background: rgba(0, 0, 0, 0.8); /* Fundo semitransparente */
+            border-radius: 15px;
+            padding: 40px;
+            text-align: center;
+            width: 100%;
+            max-width: 420px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .login-container:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Estilo para o título */
+        .login-container h1 {
+            font-size: 2.8rem;
+            color: #FFCC00; /* Amarelo (BRICS) */
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 0 0 10px #FFCC00;
+        }
+
+        .login-container p {
+            font-size: 1.3rem;
+            color: #FFD700; /* Dourado (China) */
+            margin-bottom: 25px;
+        }
+
+        .login-form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        /* Estilo para o botão */
+        .login-form a {
+            padding: 18px;
+            background-color: #FFCC00; /* Amarelo (BRICS) */
+            color: #0033A0; /* Azul (Rússia) */
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: 8px;
+            text-align: center;
+            transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease;
+        }
+
+        .login-form a:hover {
+            background-color: #D60000; /* Vermelho (China) */
+            color: #FFCC00; /* Amarelo (BRICS) */
+            transform: translateY(-3px);
+        }
+
+        .login-form a:active {
+            transform: translateY(1px);
+        }
+
+        /* Estilo para o rodapé */
+        .footer {
+            position: fixed;
+            bottom: 20px;
+            width: 100%;
+            text-align: center;
+            font-size: 1rem;
+            color: #FFD700; /* Dourado (China) */
+        }
+
+        /* Media Query para dispositivos menores */
+        @media only screen and (max-width: 600px) {
+            .login-container {
+                padding: 25px;
+            }
+
+            .login-container h1 {
+                font-size: 2.2rem;
+            }
+
+            .login-container p {
+                font-size: 1.1rem;
+            }
+
+            .login-form a {
+                padding: 15px;
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="login-container">
+        <h1>BRICS LATTES</h1>
+        <p>PRO BRIX DRT </p>
+        <div class="login-form">
+            <a href="pay.html">Enter</a>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <div class="footer">
+        &copy; 2024 BRICS LATTES . BY LUCAS JANUARIO .
+    </div>
+</body>
+
+</html>
